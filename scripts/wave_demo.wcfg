@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_sys4_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fft_types" />
+            <top_module name="glbl" />
+            <top_module name="tb_sys4" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="13135573fs"></ZoomStartTime>
+      <ZoomEndTime time="111035574fs"></ZoomEndTime>
+      <Cursor1Time time="20000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="212"></NameColumnWidth>
+      <ValueColumnWidth column_width="101"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject type="divider" fp_name="divider51">
+      <obj_property name="label">1 CLK / FRAME</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/clk2" type="logic">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/u/fend" type="logic">
+      <obj_property name="ElementShortName">fend</obj_property>
+      <obj_property name="ObjectShortName">fend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/u/wr_ok" type="logic">
+      <obj_property name="ElementShortName">wr_ok</obj_property>
+      <obj_property name="ObjectShortName">wr_ok</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider56">
+      <obj_property name="label">2 ONE ANALYSIS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/u/ds_start" type="logic">
+      <obj_property name="ElementShortName">ds_start</obj_property>
+      <obj_property name="ObjectShortName">ds_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/u/ds_busy" type="logic">
+      <obj_property name="ElementShortName">ds_busy</obj_property>
+      <obj_property name="ObjectShortName">ds_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/u/u_ds/pa_done" type="logic">
+      <obj_property name="ElementShortName">pa_done</obj_property>
+      <obj_property name="ObjectShortName">pa_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/u/u_ds/pb_busy" type="logic">
+      <obj_property name="ElementShortName">pb_busy</obj_property>
+      <obj_property name="ObjectShortName">pb_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/D" type="logic">
+      <obj_property name="ElementShortName">D</obj_property>
+      <obj_property name="ObjectShortName">D</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider62">
+      <obj_property name="label">3 RESULT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/LAT" type="array">
+      <obj_property name="ElementShortName">LAT[12:0]</obj_property>
+      <obj_property name="ObjectShortName">LAT[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/L" type="array">
+      <obj_property name="ElementShortName">L[12:0]</obj_property>
+      <obj_property name="ObjectShortName">L[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/R" type="array">
+      <obj_property name="ElementShortName">R[12:0]</obj_property>
+      <obj_property name="ObjectShortName">R[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/BW" type="array">
+      <obj_property name="ElementShortName">BW[13:0]</obj_property>
+      <obj_property name="ObjectShortName">BW[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sys4/DC" type="array">
+      <obj_property name="ElementShortName">DC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DC[15:0]</obj_property>
+   </wvobject>
+</wave_config>

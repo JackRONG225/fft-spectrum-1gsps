@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you reference this design, please cite it as below."
+title: "1 GSPS Digital-Throughput 8192-point Real-Time Spectrum Analyser on Artix-7"
+abstract: >-
+  A complete RTL implementation of a real-time spectrum analyser for digital
+  baseband IQ signals on a single Artix-7 XC7A35T-FGG484-2. Four parallel
+  2048-point streaming FFT cores are merged on the output side by a radix-4
+  butterfly into an 8192-point spectrum, giving 1 GSPS digital throughput at
+  250 MHz with four complex samples per clock. A bit-exact 3-multiplication
+  Karatsuba complex multiplier reduces the multiplier budget from 105 to 85
+  DSP48E1 slices, which is what makes four parallel lanes fit. The stimulus is
+  an on-chip ROM replay; there is no high-speed ADC and no analogue front end,
+  so the throughput figure is a digital-domain property.
+type: software
+version: "1.0.0"
+date-released: "2026-11-09"
+license: CC-BY-NC-SA-2.0
+repository-code: "https://github.com/JackRONG225/fft-spectrum-1gsps"
+url: "https://github.com/JackRONG225/fft-spectrum-1gsps"
+keywords:
+  - FPGA
+  - FFT
+  - spectrum analysis
+  - Vivado
+  - Verilog
+  - VHDL
+  - DSP
+  - Artix-7
+  - Karatsuba
+  - digital signal processing
+authors:
+  - family-names: "Rong"
+    given-names: "Peijun"
+    affiliation: "Hefei University of Technology"
+  - family-names: "Guan"
+    given-names: "Shuwei"
+    affiliation: "Hefei University of Technology"
+references:
+  - type: generic
+    title: "2026 Anhui Province Integrated Circuit Elite Competition, Track 2 (FPGA Design and Application) -- design report, 64 pages, in Chinese"
+    year: 2026
+    notes: >-
+      Shipped as a release asset (设计报告_1000MSPS.pdf). Every performance
+      figure in this repository is traceable to a section of that report.
+  - type: software
+    title: "fft2048: 2048-point streaming pipelined FFT core (VHDL)"
+    authors:
+      - name: "OWOComm"
+    year: 2021
+    notes: >-
+      Third-party component, bundled in third_party/fftcore/ under
+      CC BY-NC-SA 2.0. Implements Bailey's 4-step large-FFT decomposition.
+  - type: generic
+    title: "FFTs in External or Hierarchical Memory"
+    authors:
+      - family-names: "Bailey"
+        given-names: "David H."
+    year: 1989
+    notes: "NASA Technical Report RNR-89-004"

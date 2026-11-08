@@ -1,0 +1,28 @@
+# Normalise line endings to LF in the repository.
+# The whole tree is authored in LF; letting Git convert to CRLF on checkout would
+# silently rewrite every source file and break the "byte-identical to the
+# delivered source tree" property that docs/metrics.md relies on.
+* text=auto eol=lf
+
+# Source
+*.v      text eol=lf
+*.vh     text eol=lf
+*.vhd    text eol=lf
+*.sv     text eol=lf
+*.xdc    text eol=lf
+*.xci    text eol=lf
+*.tcl    text eol=lf
+*.py     text eol=lf
+*.mem    text eol=lf
+*.cff    text eol=lf
+*.md     text eol=lf
+*.rpt    text eol=lf
+*.wcfg   text eol=lf
+
+# Explicitly binary
+*.npz    binary
+*.bit    binary
+*.dcp    binary
+*.png    binary
+*.jpg    binary
+*.pdf    binary

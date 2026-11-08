@@ -1,0 +1,50 @@
+# ---------- Vivado / build products ----------
+_proj/
+*.jou
+*.log
+*.pb
+*.str
+*.dcp
+*.wdb
+*.wcfg.bak
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.gen/
+.gen/
+*.ltx
+*.bin
+*.mcs
+*.prm
+*.rpt
+!docs/reports/*.rpt
+*.xsa
+
+# ---------- simulation by-products ----------
+sim/*.txt
+!sim/README.md
+xsim.dir/
+webtalk*.jou
+webtalk*.log
+xelab.pb
+xvhdl.pb
+xvlog.pb
+*.vcd
+*.wlf
+_sim_logs/
+*.npz.lock
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+
+# ---------- OS / editor ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~

@@ -1,0 +1,15 @@
+### u100 freq=250 period=4.0
+### WNS=0.313 WHS=0.022 LUT=12803 FF=20944 DSP=85 BRAM36=0
+### flow place=AltSpreadLogic_medium phys=AggressiveFanoutOpt route=AggressiveExplore postroute=0
+PATH +0.313 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c1/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMA/WADR2
+PATH +0.313 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c1/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMA_D1/WADR2
+PATH +0.313 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c1/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMB/WADR2
+PATH +0.313 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c1/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMB_D1/WADR2
+PATH +0.313 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c1/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMC/WADR2
+PATH +0.313 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c1/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMC_D1/WADR2
+PATH +0.313 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c1/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMD/ADR2
+PATH +0.313 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c1/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMD_D1/ADR2
+PATH +0.352 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c0/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMA/WADR2
+PATH +0.352 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c0/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMA_D1/WADR2
+PATH +0.352 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c0/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMB/WADR2
+PATH +0.352 u_sys/u_c2/core/rb/iaddr2_reg[2]/C -> u_sys/u_c0/core/rb/g3.ram/ram1_reg_0_31_24_29/RAMB_D1/WADR2
