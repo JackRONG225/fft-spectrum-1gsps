@@ -12,6 +12,8 @@ L2 implementation report, L3 behavioural simulation, L4 board measurement).
 > 3 乘法 Karatsuba 把 4 路并行的乘法预算从 105 压到 85，使 1 GSPS 数字吞吐成为可能。
 > 代码与报告按原样公开，便于复核；不承诺维护。
 
+![系统总体结构与两时钟域划分](docs/figures/fig1-1_architecture.png)
+
 ---
 
 ## 徽章
