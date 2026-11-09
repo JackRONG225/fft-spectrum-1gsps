@@ -174,9 +174,8 @@ set_property ... PACKAGE_PIN R2  [get_ports led0]
 
 | 缺口 | 影响 | 现状 |
 |---|---|---|
-| 5 处 `$readmemh` 绝对路径 | 不改就复现不出非零谱 | 待作者修改，见 [`rtl-patch-needed.md`](rtl-patch-needed.md) |
 | 除 `u100_full` 外 11 个 `vec_*.npz` 未发布 | `cmp_all.py` 只能对 `u100_full` 直接跑通 | `.mem` 已发布；`.npz` 是定点模型的激励，其中 rand/tone/dc 一族可按 §5 重建，mid/wide/dc780/ultra 的生成脚本未随仓库发布 |
-| 无 `.xpr` 入库 | 必须跑一次 `build_project.tcl` | 故意为之：入库的 `.xpr` 会把本机绝对路径写死 |
+| 无 `.xpr` 入库 | 必须跑一次 `build_project.tcl` | 故意为之：入库的 `.xpr` 会把本机绝对路径写死（`Project Path=` 字段） |
 | 未做综合后 / 实现后时序仿真 | L3 证据不覆盖时序行为 | 报告 §4.7 已列为未验证项 |
 | 无 ILA 抓包 | 板级证据是串口报文而非内部波形 | 同上 |
 
