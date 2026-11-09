@@ -107,6 +107,7 @@ L2 implementation report, L3 behavioural simulation, L4 board measurement).
 │   ├── reproduce.md        三步复现 + 六个坑
 │   ├── design-evolution.md 600M/2lane → 1G/4lane 决策表
 │   ├── waveform-guide.md   怎么看仿真波形
+│   ├── faq.md              11 个常见问题（含"能商用吗""为什么不改用一个 8192 点核"）
 │   └── design-report.pdf   设计报告 64 页（中文，竞赛提交版）
 ├── rtl/                    本设计 12 个源文件（10 个参与综合 + 2 个备查）
 ├── third_party/fftcore/    第三方 FFT 核 15 个 VHDL + 原 LICENSE + 原 README
